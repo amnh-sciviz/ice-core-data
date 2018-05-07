@@ -1,0 +1,14 @@
+{
+  "dataFiles": [
+    {"file": "temperature/data/gisp2_temp_accum_alley2000.txt", "label": "GISP2", "yearKey": "Age", "valueKey": "Temperature", "bp": 2000,  "error": 2, "yearMult": 1000, "color": "tab:blue"},
+    {"file": "temperature/data/ngrip2006d15n-ch4-t.txt", "label": "NGRIP", "yearKey": "Age", "valueKey": "Temperature", "errorUpperKey": "upper", "bp": 1950, "color": "tab:orange"}
+  ],
+  "output": {
+    "id": "temperature",
+    "title": "Temperature in Greenland",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "xLabel": "Years before present",
+    "yLabel": "Degrees Celsius",
+    "header": ["yearsbp", "value", "error"]
+  }
+}

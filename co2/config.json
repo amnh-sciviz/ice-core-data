@@ -1,0 +1,16 @@
+{
+  "dataFiles": [
+    {"file": "co2/data/co2_annmean_mlo.txt", "label": "Mauna Loa", "yearKey": "year", "valueKey": "mean", "errorKey": "unc", "color": "tab:blue"},
+    {"file": "co2/data/law2006.txt", "label": "Law", "yearKey": "YearAD", "valueKey": "CO2spl", "error": 1.1, "color": "tab:orange"},
+    {"file": "co2/data/edc-co2.txt", "label": "EPICA", "yearKey": "Age", "valueKey": "CO2", "errorKey": "sigma", "bp": 1950, "color": "tab:green"},
+    {"file": "co2/data/vostok.icecore.co2.txt", "label": "Vostok", "yearKey": "GasAge", "valueKey": "CO2", "error": 3, "bp": 1950, "color": "tab:purple"}
+  ],
+  "output": {
+    "id": "co2",
+    "title": "Carbon Dioxide (parts per million)",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "xLabel": "Years before present",
+    "yLabel": "CO2 ppm",
+    "header": ["yearsbp", "value", "error"]
+  }
+}
