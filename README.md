@@ -45,7 +45,7 @@ For population:
 
 ```
 python processData.py -in population/config.json -graph 1
-python processData.py -in population/config.json -out population/data/population.json
+python processData.py -in population/config.json -out population/data/population.json -round 1000
 ```
 
 Each will output it's own data file as well as add to a `all-data.json` combined dataset in the format:

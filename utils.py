@@ -15,6 +15,9 @@ def getTuple(entry, row, present, startYearsBP, years=[]):
     if "yearMult" in entry:
         year *= entry["yearMult"]
 
+    if "valueMult" in entry:
+        value *= entry["valueMult"]
+
     yearbp = present-year
     if "bp" in entry:
         bp = entry["bp"]
