@@ -1,0 +1,13 @@
+{
+  "dataFiles": [
+    {"file": "sealevel/data/spratt2016.txt", "label": "Spratt", "yearKey": "age_calkaBP", "valueKey": "SeaLev_shortPC1", "bp": 2016, "errorKey": "SeaLev_shortPC1_err_sig", "yearMult": 1000, "color": "tab:blue"}
+  ],
+  "output": {
+    "id": "sealevel",
+    "title": "Global sea level",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "xLabel": "Years before present",
+    "yLabel": "Meters above present day",
+    "header": ["yearsbp", "value", "error"]
+  }
+}

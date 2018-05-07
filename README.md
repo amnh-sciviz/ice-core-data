@@ -4,7 +4,7 @@ Scripts for processing and standardizing ice core data
 
 ## The processed data
 
-The processed data is found in a single json file `all-data.json`, but is also split into individual data files:
+The processed data is found in a single json file [all-data.json](all-data.json), but is also split into individual data files:
 
 - [co2/data/co2.json](co2/data/co2.json)
 - [temperature/data/temperature.json](temperature/data/temperature.json)
@@ -38,7 +38,7 @@ For sea level:
 
 ```
 python processData.py -in sealevel/config.json -graph 1
-python processData.py -in sealevel/config.json -out sealevel/data/sealevel.json
+python processData.py -in sealevel/config.json -out sealevel/data/sealevel.json -round 20
 ```
 
 For population:
