@@ -26,14 +26,19 @@ def getTuple(entry, row, present, startYearsBP, years=[]):
     if yearbp > startYearsBP or yearbp < 0 or yearbp in years:
         return False
 
-    error = 0
-    if "error" in entry:
-        error = entry["error"]
-    elif "errorKey" in entry:
+    error = False
+
+    if "errorKey" in entry:
         error = row[entry["errorKey"]]
     elif "errorUpperKey" in entry:
         errorUpper = row[entry["errorUpperKey"]]
         error = abs(errorUpper-value)
+
+    if error is False and "error" in entry:
+        error = entry["error"]
+
+    if error is False:
+        error = 0
 
     return (yearbp, value, error)
 
@@ -65,7 +70,7 @@ def parseNumber(string):
         num = float(string)
         return num
     except ValueError:
-        return string
+        return False
 
 def parseNumbers(arr):
     for i, item in enumerate(arr):
@@ -92,8 +97,33 @@ def readTxt(filename):
             rows = parseNumbers(rows)
     return rows
 
+def reduceData(data):
+    reducedLookup = {}
+    years = []
+    nearest = 100
+    digits = len(str(nearest))
+    for d in data:
+        year = d[0]
+        value = d[1]
+
+        if len(str(year)) > digits:
+            year = str(roundto(year, nearest))
+            if year not in reducedLookup:
+                years.append(year)
+                reducedLookup[year] = d
+        else:
+            year = str(year)
+            years.append(year)
+            reducedLookup[year] = d
+
+    reduced = [reducedLookup[y] for y in years]
+    return reduced
+
 def rounddown(x, nearest):
     return int(math.floor(1.0 * x / nearest)) * nearest
+
+def roundto(x, nearest):
+    return int(round(1.0 * x / nearest)) * nearest
 
 def roundup(x, nearest):
     return int(math.ceil(1.0 * x / nearest)) * nearest

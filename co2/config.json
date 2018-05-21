@@ -5,12 +5,14 @@
     {"file": "co2/data/edc-co2.txt", "label": "EPICA", "yearKey": "Age", "valueKey": "CO2", "errorKey": "sigma", "bp": 1950, "color": "tab:green"},
     {"file": "co2/data/vostok.icecore.co2.txt", "label": "Vostok", "yearKey": "GasAge", "valueKey": "CO2", "error": 3, "bp": 1950, "color": "tab:purple"}
   ],
+  "outputFilename": "co2/data/co2.json",
   "output": {
     "id": "co2",
     "title": "Carbon Dioxide (parts per million)",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
     "xLabel": "Years before present",
     "yLabel": "CO2 ppm",
-    "header": ["yearsbp", "value", "error"]
+    "header": ["yearsbp", "value", "error"],
+    "presentValue": 406.53
   }
 }

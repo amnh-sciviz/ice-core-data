@@ -3,12 +3,14 @@
     {"file": "population/data/WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.tsv", "label": "United Nations", "yearKey": "Year", "valueKey": "Value", "valueMult": 1000, "color": "tab:blue"},
     {"file": "population/data/paleo_population_table.tsv", "label": "Paleo", "yearKey": "Years", "valueKey": "Population", "bp": 2011, "color": "tab:orange"}
   ],
+  "outputFilename": "population/data/population.json",
   "output": {
     "id": "population",
     "title": "Population",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
     "xLabel": "Years before present",
     "yLabel": "Number of people",
-    "header": ["yearsbp", "value", "error"]
+    "header": ["yearsbp", "value", "error"],
+    "presentValue": 7383009
   }
 }

@@ -25,27 +25,28 @@ You can also view a graph of the data:
 
 ```
 python processData.py -graph 1
+python processData.py -graph 1 -start 10000
 ```
 
 For temperature:
 
 ```
-python processData.py -in temperature/config.json -graph 1
-python processData.py -in temperature/config.json -out temperature/data/temperature.json -round 5
+python processData.py -in temperature/config.json -graph 1 -start 10000
+python processData.py -in temperature/config.json -round 5
 ```
 
 For sea level:
 
 ```
 python processData.py -in sealevel/config.json -graph 1
-python processData.py -in sealevel/config.json -out sealevel/data/sealevel.json -round 20
+python processData.py -in sealevel/config.json -round 20
 ```
 
 For population:
 
 ```
 python processData.py -in population/config.json -graph 1
-python processData.py -in population/config.json -out population/data/population.json -round 1000
+python processData.py -in population/config.json -round 1000
 ```
 
 Each will output it's own data file as well as add to a `all-data.json` combined dataset in the format:
