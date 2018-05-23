@@ -128,8 +128,10 @@ def roundto(x, nearest):
 def roundup(x, nearest):
     return int(math.ceil(1.0 * x / nearest)) * nearest
 
-def showGraph(dataManifest, present, startYearsBP):
+def showGraph(dataManifest, present, startYearsBP, cropData=False):
     import matplotlib.pyplot as plt
+
+    ranges = []
 
     for entry in dataManifest:
         data = readTxt(entry["file"])
@@ -139,12 +141,18 @@ def showGraph(dataManifest, present, startYearsBP):
             result = getTuple(entry, row, present, startYearsBP)
             if result:
                 yearbp, value, error = result
-                years.append(yearbp)
-                values.append(value)
+                found = False
+                for r in ranges:
+                    if r[0] <= yearbp <= r[1]:
+                        found = True
+                if not cropData or not found:
+                    years.append(yearbp)
+                    values.append(value)
         plt.plot(years, values, color=entry["color"], label=entry["label"])
+        ranges.append([min(years), max(years)])
 
     plt.ylabel('Value')
-    plt.xlabel('Years Before %s' % present)
+    plt.xlabel('Years BP')
     plt.gca().invert_xaxis()
     plt.legend()
     plt.show()

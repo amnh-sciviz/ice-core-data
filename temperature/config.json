@@ -1,8 +1,8 @@
 {
   "dataFiles": [
-    {"file": "temperature/data/gisp2_temp_accum_alley2000.txt", "label": "GISP2", "yearKey": "Age", "valueKey": "Temperature", "bp": 2000,  "error": 2, "yearMult": 1000, "color": "tab:blue"},
+    {"file": "temperature/data/gisp2-temperature2011.txt", "label": "KOBASHI", "yearKey": "YearAD", "valueKey": "MeanT", "error": 0.5, "errorUpperKey": "UpperBand", "color": "tab:green"},
     {"file": "temperature/data/ngrip2006d15n-ch4-t.txt", "label": "NGRIP", "yearKey": "Age", "valueKey": "Temperature", "errorUpperKey": "upper", "bp": 1950, "color": "tab:orange"},
-    {"file": "temperature/data/gisp2-temperature2011.txt", "label": "KOBASHI", "yearKey": "YearAD", "valueKey": "MeanT", "error": 0.5, "errorUpperKey": "UpperBand", "color": "tab:green"}
+    {"file": "temperature/data/gisp2_temp_accum_alley2000.txt", "label": "GISP2", "yearKey": "Age", "valueKey": "Temperature", "bp": 2000,  "error": 2, "yearMult": 1000, "color": "tab:blue"}
   ],
   "outputFilename": "temperature/data/temperature.json",
   "output": {
