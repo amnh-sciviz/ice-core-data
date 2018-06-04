@@ -32,7 +32,8 @@ def getTuple(entry, row, present, startYearsBP, years=[]):
         error = row[entry["errorKey"]]
     elif "errorUpperKey" in entry:
         errorUpper = row[entry["errorUpperKey"]]
-        error = abs(errorUpper-value)
+        if errorUpper is not False:
+            error = abs(errorUpper-value)
 
     if error is False and "error" in entry:
         error = entry["error"]
