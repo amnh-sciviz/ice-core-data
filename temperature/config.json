@@ -12,6 +12,7 @@
     "xLabel": "Years before present",
     "yLabel": "Degrees Celsius",
     "header": ["yearsbp", "value", "error"],
-    "presentValue": -30.54
+    "presentValue": -30.54,
+    "presentLabel": "2017 Value"
   }
 }

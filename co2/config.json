@@ -13,6 +13,7 @@
     "xLabel": "Years before present",
     "yLabel": "CO2 ppm",
     "header": ["yearsbp", "value", "error"],
-    "presentValue": 406.53
+    "presentValue": 406.53,
+    "presentLabel": "2017 Value"
   }
 }

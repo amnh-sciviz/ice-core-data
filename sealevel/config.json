@@ -10,6 +10,7 @@
     "xLabel": "Years before present",
     "yLabel": "Meters above present day",
     "header": ["yearsbp", "value", "error"],
-    "presentValue": 0
+    "presentValue": 0,
+    "presentLabel": "2016 Value"
   }
 }
