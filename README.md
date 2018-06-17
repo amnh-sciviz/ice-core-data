@@ -49,6 +49,15 @@ python processData.py -in population/config.json -graph 1
 python processData.py -in population/config.json -round 1000
 ```
 
+For isotopes/ions/particles:
+
+```
+python processData.py -in calcium/config.json -graph 1
+python processData.py -in dust/config.json -graph 1
+python processData.py -in oxygen/config.json -graph 1
+python processData.py -in seasalt/config.json -graph 1
+```
+
 Each will output it's own data file as well as add to a `all-data.json` combined dataset in the format:
 
 ```

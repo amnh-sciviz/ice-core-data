@@ -1,0 +1,14 @@
+{
+  "dataFiles": [
+    {"file": "oxygen/data/gispd18o.txt", "label": "Oxygen isotope", "yearKey": "Age", "valueKey": "d18O", "bp": 1950, "error": 0.14, "color": "tab:blue", "emptyValue": "999999"}
+  ],
+  "outputFilename": "oxygen/data/oxygen.json",
+  "output": {
+    "id": "oxygen",
+    "title": "Oxygen Isotope",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "xLabel": "Years before present",
+    "yLabel": "O2 ppm",
+    "header": ["yearsbp", "value", "error"]
+  }
+}

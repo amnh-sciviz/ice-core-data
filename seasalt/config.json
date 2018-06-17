@@ -1,0 +1,14 @@
+{
+  "dataFiles": [
+    {"file": "calcium/data/iond.txt", "label": "Sea salt", "yearKey": "Top", "valueKey": "Na_ppb", "bp": 1950, "error": 0.5, "color": "tab:blue"}
+  ],
+  "outputFilename": "seasalt/data/seasalt.json",
+  "output": {
+    "id": "seasalt",
+    "title": "Sea salt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "xLabel": "Years before present",
+    "yLabel": "Na ppb",
+    "header": ["yearsbp", "value", "error"]
+  }
+}

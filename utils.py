@@ -18,6 +18,11 @@ def getTuple(entry, row, present, startYearsBP, years=[]):
     if "valueMult" in entry:
         value *= entry["valueMult"]
 
+    if "emptyValue" in entry:
+        emptyValue = entry["emptyValue"]
+        if int(value) == int(emptyValue):
+            value = False
+
     yearbp = present-year
     if "bp" in entry:
         bp = entry["bp"]
@@ -55,12 +60,13 @@ def parseData(dataManifest, present, startYearsBP):
             result = getTuple(entry, row, present, startYearsBP, years)
             if result:
                 yearbp, value, error = result
-                years.append(yearbp)
-                dataOut.append([
-                    int(yearbp),
-                    value,
-                    error
-                ])
+                if value is not False:
+                    years.append(yearbp)
+                    dataOut.append([
+                        int(yearbp),
+                        value,
+                        error
+                    ])
 
     # sort by year descending
     dataOut = sorted(dataOut, key=lambda k: k[0], reverse=True)
@@ -142,13 +148,14 @@ def showGraph(dataManifest, present, startYearsBP, cropData=False):
             result = getTuple(entry, row, present, startYearsBP)
             if result:
                 yearbp, value, error = result
-                found = False
-                for r in ranges:
-                    if r[0] <= yearbp <= r[1]:
-                        found = True
-                if not cropData or not found:
-                    years.append(yearbp)
-                    values.append(value)
+                if value is not False:
+                    found = False
+                    for r in ranges:
+                        if r[0] <= yearbp <= r[1]:
+                            found = True
+                    if not cropData or not found:
+                        years.append(yearbp)
+                        values.append(value)
         plt.plot(years, values, color=entry["color"], label=entry["label"])
         ranges.append([min(years), max(years)])
 
