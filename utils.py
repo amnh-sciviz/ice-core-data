@@ -75,6 +75,8 @@ def parseData(dataManifest, present, startYearsBP):
 def parseNumber(string):
     try:
         num = float(string)
+        if math.isnan(num):
+            num = False
         return num
     except ValueError:
         return False
