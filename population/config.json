@@ -11,7 +11,7 @@
     "xLabel": "Years before present",
     "yLabel": "Number of people",
     "header": ["yearsbp", "value", "error"],
-    "presentValue": 7383009,
+    "presentValue": 7383009000,
     "presentLabel": "2017 Value"
   }
 }
