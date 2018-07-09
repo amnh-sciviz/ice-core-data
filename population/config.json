@@ -8,7 +8,7 @@
   "output": {
     "id": "population",
     "title": "Population",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "description": "<span class='graph-description-white'>Human population increased significantly after climate stabilized</span> around 11,700 years ago. Over the next few thousand years, humans developed agriculture and built complex societies.",
     "xLabel": "Years before present",
     "yLabel": "Number of people",
     "header": ["yearsbp", "value", "error"],

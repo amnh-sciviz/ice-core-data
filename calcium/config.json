@@ -4,7 +4,7 @@
   ],
   "outputFilename": "calcium/data/calcium.json",
   "output": {
-    "id": "calcium",
+    "id": "dust",
     "title": "Calcium",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
     "xLabel": "Years before present",

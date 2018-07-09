@@ -8,11 +8,11 @@
   "output": {
     "id": "temperature",
     "title": "Temperature in Greenland",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "description": "Analyzing isotopes in ice cores allows scientists to <span class='graph-description-white'>reconstruct past temperature changes</span>, as well as other climate records.",
     "xLabel": "Years before present",
     "yLabel": "Degrees Celsius",
     "header": ["yearsbp", "value", "error"],
-    "presentValue": -30.54,
+    "presentValue": -30.5,
     "presentLabel": "2017 Value"
   }
 }

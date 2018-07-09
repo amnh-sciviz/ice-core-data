@@ -6,7 +6,7 @@
   "output": {
     "id": "sealevel",
     "title": "Global sea level",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec massa a nunc vehicula aliquam. Nulla vitae sapien risus.",
+    "description": "Sea level can be reconstructed using core samples of ocean sediments. <span class='graph-description-white'>Sea level is lower when more of Earth’s water is frozen in ice sheets—and rises when the ice melts.</span>",
     "xLabel": "Years before present",
     "yLabel": "Meters above present day",
     "header": ["yearsbp", "value", "error"],
