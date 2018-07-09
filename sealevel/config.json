@@ -1,6 +1,6 @@
 {
   "dataFiles": [
-    {"file": "sealevel/data/spratt2016.txt", "label": "Spratt", "yearKey": "age_calkaBP", "valueKey": "SeaLev_shortPC1", "bp": 2016, "errorKey": "SeaLev_shortPC1_err_sig", "yearMult": 1000, "color": "tab:blue"}
+    {"file": "sealevel/data/waelbroeck2002.txt", "label": "Waelbroeck", "yearKey": "Age", "valueKey": "RSL", "bp": 1950, "errorUpperKey": "RSL-", "yearMult": 1000, "color": "tab:blue"}
   ],
   "outputFilename": "sealevel/data/sealevel.json",
   "output": {
@@ -11,6 +11,6 @@
     "yLabel": "Meters above present day",
     "header": ["yearsbp", "value", "error"],
     "presentValue": 0,
-    "presentLabel": "2016 Value"
+    "presentLabel": "1950 Value"
   }
 }

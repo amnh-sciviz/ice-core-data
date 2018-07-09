@@ -1,109 +1,109 @@
-Sea-level and Deep Water Temperature 430KYr Reconstructions 
------------------------------------------------------------------------ 
-               World Data Center for Paleoclimatology, Boulder 
-                                  and 
-                     NOAA Paleoclimatology Program 
------------------------------------------------------------------------ 
-NOTE: PLEASE CITE ORIGINAL REFERENCE WHEN USING THIS DATA!!!!! 
-
-
-NAME OF DATA SET: 
-Sea-level and Deep Water Temperature 430KYr Reconstructions 
-
-LAST UPDATE: 11/2010 (Original receipt by WDC Paleo) 
-CONTRIBUTORS: Waelbroeck, C., L. Labeyrie, E. Michel, J.C. Duplessy, 
-J. McManus, K. Lambeck, E. Balbon, and M. Labracherie. 
-IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2010-126 
-
-
-WDC PALEO CONTRIBUTION SERIES CITATION: 
-Waelbroeck, C., et al. 2010. 
-Sea-level and Deep Water Temperature 430KYr Reconstructions. 
-IGBP PAGES/World Data Center for Paleoclimatology 
-Data Contribution Series # 2010-126. 
-NOAA/NCDC Paleoclimatology Program, Boulder CO, USA. 
-
-
-ORIGINAL REFERENCE: 
-Waelbroeck, C., L. Labeyrie, E. Michel, J.C. Duplessy, J. McManus, 
-K. Lambeck, E. Balbon, and M. Labracherie. 2002. 
-Sea-level and deep water temperature changes derived from benthic 
-foraminifera isotopic records. 
-Quaternary Science Reviews, Vol. 21, pp. 295-305. 
-
-ABSTRACT:
-We show that robust regressions can be established between relative 
-sea-level (RSL) data and benthic foraminifera oxygen isotopic ratios 
-from the North Atlantic and Equatorial Pacific Ocean over the last 
-climatic cycle. We then apply these regressions to long benthic 
-isotopic records retrieved at one North Atlantic and one Equatorial 
-Pacific site to build a composite RSL curve, as well as the 
-associated confidence interval, over the last four climatic cycles. 
-Our proposed reconstruction of RSL is in good agreement with 
-the sparse RSL data available prior to the last climatic cycle. 
-We compute bottom water temperature changes at the two sites 
-and at one Southern Indian Ocean site, taking into account potential 
-variations in North Atlantic local deep-water d18O. Our results 
-indicate that a Last Glacial Maximum (LGM) enrichment of the ocean 
-mean oxygen isotopic ratio of 0.95% is the lowest value compatible 
-with unfrozen deep waters in the Southern Indian Ocean if local deep 
-water d18O did not increase during glacials with respect to present. 
-Such a value of the LGM mean ocean isotopic enrichment would impose 
-a maximum decrease in local bottom water d18O at the North Atlantic 
-site of 0.30% during glacials. 
-
-
-ADDITIONAL REFERENCE: 
-Martinson, D.G., N.G. Pisias, J.D. Hays, J. Imbrie, 
-T.C. Moore, and N.J. Shackleton. 1987. 
-Age dating and the orbital theory of the ice ages: 
-development ofa high-resolution 0 to 300 000 year chronostratigraphy. 
-Quaternary Research, Vol. 27, pp. 1-29.
-
-
-GEOGRAPHIC REGION: Global
-PERIOD OF RECORD: 430 ky BP - present  
-
-FUNDING SOURCES: 
-This work was supported by the French CNRS, INSU, CEA, and IPEV.
-
-
-DESCRIPTION: 
-Reconstructed global mean ocean d18O and sea level, plus computed 
-deep water temperature for the North Atlantic, South Indian, and 
-Equatorial Pacific Oceans, derived from benthic foraminifera oxygen 
-isotopes, as described in Waelbroeck et al. (2002).  Age model 
-is based on 14C then SPECMAP, and has been adjusted around 
-Termination II to be consistent with coral U-Th dates. 
-
-North Atlantic deep water temperature is derived from a splice of 
-benthic d18O records from 3 neighboring cores: NA87-22 (55°30'N, 
-14°42'W, 2161 m), NA87-25 (55°12'N, 14°45'W, 2320 m), and ODP980 
-(55°29'N, 14°42'W, 2179 m). South Indian site deep water 
-temperature is derived from core MD94-101 (42°30'S, 79°25'E, 2920 m) 
-benthic d18O. Equatorial Pacific deep water temperature is derived 
-from a splice of benthic d18O records from 2 neighboring cores: 
-V19-30 (03°21'S, 83°21'W, 3091 m) and ODP677 (01°12'N, 83°44'W, 3461 m).
-
-
-
-
-DATA: 
-1. Global mean ocean d18O and sea level
-
-Column 1: Calendar age (14C + SPECMAP), adjusted at Termination II
-          to be consistent with corals U-Th dates, cal. ky BP
-Column 2: Mean ocean d18O, per mil SMOW
-Column 3: Minimum mean ocean d18O, per mil SMOW
-Column 4: Maximum mean ocean d18O, per mil SMOW
-Column 5: Global mean sea level, m below present sea level
-Column 6: Minimum global mean sea level, m below present sea level
-Column 7: Maximum global mean sea level, m below present sea level
-Column 8: Alternate age model 1, 14C + SPECMAP, no Termination II Adjustment
-Column 9: Alternate age model 2, adjusted to Martinson et al. (1987) time scale, prior to 33 ky BP only
-Column 10: Alternate age model 3, adjusted to Martinson et al. (1987) time scale all the way
-
-              Mean ocean d18O              Relative Sea Level             Alternate Age Models
+# Sea-level and Deep Water Temperature 430KYr Reconstructions
+# -----------------------------------------------------------------------
+#                World Data Center for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+# -----------------------------------------------------------------------
+# NOTE: PLEASE CITE ORIGINAL REFERENCE WHEN USING THIS DATA!!!!!
+#
+#
+# NAME OF DATA SET:
+# Sea-level and Deep Water Temperature 430KYr Reconstructions
+#
+# LAST UPDATE: 11/2010 (Original receipt by WDC Paleo)
+# CONTRIBUTORS: Waelbroeck, C., L. Labeyrie, E. Michel, J.C. Duplessy,
+# J. McManus, K. Lambeck, E. Balbon, and M. Labracherie.
+# IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2010-126
+#
+#
+# WDC PALEO CONTRIBUTION SERIES CITATION:
+# Waelbroeck, C., et al. 2010.
+# Sea-level and Deep Water Temperature 430KYr Reconstructions.
+# IGBP PAGES/World Data Center for Paleoclimatology
+# Data Contribution Series # 2010-126.
+# NOAA/NCDC Paleoclimatology Program, Boulder CO, USA.
+#
+#
+# ORIGINAL REFERENCE:
+# Waelbroeck, C., L. Labeyrie, E. Michel, J.C. Duplessy, J. McManus,
+# K. Lambeck, E. Balbon, and M. Labracherie. 2002.
+# Sea-level and deep water temperature changes derived from benthic
+# foraminifera isotopic records.
+# Quaternary Science Reviews, Vol. 21, pp. 295-305.
+#
+# ABSTRACT:
+# We show that robust regressions can be established between relative
+# sea-level (RSL) data and benthic foraminifera oxygen isotopic ratios
+# from the North Atlantic and Equatorial Pacific Ocean over the last
+# climatic cycle. We then apply these regressions to long benthic
+# isotopic records retrieved at one North Atlantic and one Equatorial
+# Pacific site to build a composite RSL curve, as well as the
+# associated confidence interval, over the last four climatic cycles.
+# Our proposed reconstruction of RSL is in good agreement with
+# the sparse RSL data available prior to the last climatic cycle.
+# We compute bottom water temperature changes at the two sites
+# and at one Southern Indian Ocean site, taking into account potential
+# variations in North Atlantic local deep-water d18O. Our results
+# indicate that a Last Glacial Maximum (LGM) enrichment of the ocean
+# mean oxygen isotopic ratio of 0.95% is the lowest value compatible
+# with unfrozen deep waters in the Southern Indian Ocean if local deep
+# water d18O did not increase during glacials with respect to present.
+# Such a value of the LGM mean ocean isotopic enrichment would impose
+# a maximum decrease in local bottom water d18O at the North Atlantic
+# site of 0.30% during glacials.
+#
+#
+# ADDITIONAL REFERENCE:
+# Martinson, D.G., N.G. Pisias, J.D. Hays, J. Imbrie,
+# T.C. Moore, and N.J. Shackleton. 1987.
+# Age dating and the orbital theory of the ice ages:
+# development ofa high-resolution 0 to 300 000 year chronostratigraphy.
+# Quaternary Research, Vol. 27, pp. 1-29.
+#
+#
+# GEOGRAPHIC REGION: Global
+# PERIOD OF RECORD: 430 ky BP - present
+#
+# FUNDING SOURCES:
+# This work was supported by the French CNRS, INSU, CEA, and IPEV.
+#
+#
+# DESCRIPTION:
+# Reconstructed global mean ocean d18O and sea level, plus computed
+# deep water temperature for the North Atlantic, South Indian, and
+# Equatorial Pacific Oceans, derived from benthic foraminifera oxygen
+# isotopes, as described in Waelbroeck et al. (2002).  Age model
+# is based on 14C then SPECMAP, and has been adjusted around
+# Termination II to be consistent with coral U-Th dates.
+#
+# North Atlantic deep water temperature is derived from a splice of
+# benthic d18O records from 3 neighboring cores: NA87-22 (55ï¿½30'N,
+# 14ï¿½42'W, 2161 m), NA87-25 (55ï¿½12'N, 14ï¿½45'W, 2320 m), and ODP980
+# (55ï¿½29'N, 14ï¿½42'W, 2179 m). South Indian site deep water
+# temperature is derived from core MD94-101 (42ï¿½30'S, 79ï¿½25'E, 2920 m)
+# benthic d18O. Equatorial Pacific deep water temperature is derived
+# from a splice of benthic d18O records from 2 neighboring cores:
+# V19-30 (03ï¿½21'S, 83ï¿½21'W, 3091 m) and ODP677 (01ï¿½12'N, 83ï¿½44'W, 3461 m).
+#
+#
+#
+#
+# DATA:
+# 1. Global mean ocean d18O and sea level
+#
+# Column 1: Calendar age (14C + SPECMAP), adjusted at Termination II
+#           to be consistent with corals U-Th dates, cal. ky BP
+# Column 2: Mean ocean d18O, per mil SMOW
+# Column 3: Minimum mean ocean d18O, per mil SMOW
+# Column 4: Maximum mean ocean d18O, per mil SMOW
+# Column 5: Global mean sea level, m below present sea level
+# Column 6: Minimum global mean sea level, m below present sea level
+# Column 7: Maximum global mean sea level, m below present sea level
+# Column 8: Alternate age model 1, 14C + SPECMAP, no Termination II Adjustment
+# Column 9: Alternate age model 2, adjusted to Martinson et al. (1987) time scale, prior to 33 ky BP only
+# Column 10: Alternate age model 3, adjusted to Martinson et al. (1987) time scale all the way
+#
+#               Mean ocean d18O              Relative Sea Level             Alternate Age Models
 Age      d18Ow    d18Ow-   d18Ow+       RSL       RSL-       RSL+    Alt.Age1  Alt.Age2  Alt.Age3
 0.5       0.00     0.00     0.00       0.00       0.00       0.00         0.5     0.21     0.21
 2         0.00     0.00     0.00      -0.15      -0.15      -0.15           2     1.71     1.71
@@ -392,309 +392,307 @@ Age      d18Ow    d18Ow-   d18Ow+       RSL       RSL-       RSL+    Alt.Age1  A
 426.5     0.59     0.48     0.70     -70.07     -57.18     -83.18       426.5    426.5    426.5
 428       0.69     0.58     0.80     -81.32     -68.45     -94.45         428      428      428
 429.5     0.82     0.71     0.93     -96.60     -83.75    -109.75       429.5    429.5    429.5
-
-
-
-
-
-
-
-2. Reconstructed deep water temperature in three basins
-
-Column 1: Calendar age for North Atlantic and Pacific ODP980/677 
-          deep water temperature curves, cal. ky BP
-Column 2: NA87-22/NA87-25/ODP980 site reconstructed bottom water temperature, °C
-Column 3: V19-30/ODP677 site reconstructed bottom water temperature, °C
-Column 4: Calendar age for South Indian deep water temperature curve, cal. ky BP
-Column 5: MD94-101 site reconstructed bottom water temperature, °C
-
-Age          T        T               Age        T
-0.5        3.5      Nan                 5     1.88
-2          3.5     2.06              6.11     1.86
-3.5        3.5     2.32              7.78     2.08
-5          3.5     2.07              8.91     1.97
-6.5        3.5     1.93                10     1.45
-8         3.53     1.65             11.65     1.43
-9.5       3.43     1.53             12.74     1.67
-11        3.21     0.98             13.94     2.01
-12.5      2.83     0.67             15.12     2.16
-14        2.13     0.73             15.91      1.3
-15.5      1.12     0.74             16.72      0.2
-17        0.16     0.37             17.81    -0.75
-18.5     -0.57    -0.08              18.5    -0.92
-20       -0.82     0.09             20.01    -0.76
-21.5     -0.71     0.21              21.3    -0.62
-23       -0.55     0.08             22.61    -0.79
-24.5     -0.55     -0.2              23.9    -0.56
-26        -0.5    -0.25             25.21    -0.85
-27.5     -0.45     0.09              26.5    -0.66
-29       -0.34     0.44             28.23    -0.63
-30.5     -0.28     0.38             29.11    -0.53
-32        -0.2     0.11                30    -0.57
-33.5     -0.25        0             31.59    -0.39
-35       -0.31     0.04             33.18     -0.5
-36.5     -0.22     0.02             34.77    -0.24
-38       -0.48    -0.01             36.38     -0.3
-39.5     -0.51    -0.01             37.97    -0.65
-41        0.04    -0.01             39.56    -0.78
-42.5      0.18    -0.01             41.74    -0.65
-44         0.2        0             43.91    -0.73
-45.5     -0.04    -0.01             46.09    -0.75
-47       -0.43    -0.01             48.26    -0.86
-48.5     -0.58    -0.01             50.45    -0.92
-50       -0.16    -0.01             52.62    -1.19
-51.5      -0.1    -0.01              54.8    -1.32
-53       -0.12        0             56.97    -1.05
-54.5      -0.3     0.01             59.15    -1.23
-56       -0.31        0             61.32    -1.56
-57.5     -0.25    -0.01             63.51    -0.97
-59       -0.16        0             67.08    -0.77
-60.5     -0.56     0.03             70.65    -0.49
-62       -0.35        0             73.49    -0.52
-63.5      0.24    -0.01             74.78    -0.38
-65        0.69     0.02             75.37     -0.2
-66.5      0.79     0.02             75.96    -0.25
-68         0.6        0             76.55    -0.28
-69.5      0.51        0             77.14    -0.32
-71        0.61    -0.01             77.73     0.04
-72.5      0.78    -0.01             79.31    -0.14
-74         0.7     0.05              80.9     -0.2
-75.5      1.27     0.09             82.49    -0.01
-77        1.88     0.12             84.07     0.25
-78.5      2.04     0.27             85.65     0.22
-80        1.95      0.4              89.4     0.61
-81.5      2.15     0.42             90.92     0.38
-83        2.03     0.33             93.46     0.03
-84.5      1.91     0.17                96      0.2
-86        1.73     0.07             98.55     0.54
-87.5      1.66     0.03            101.08     0.49
-89        1.45     0.03            103.44     0.59
-90.5       1.3     0.03            105.82      0.6
-92        1.23     0.07            106.95     0.24
-93.5      1.18     0.14            108.08     0.06
-95         1.2     0.24            109.21     0.22
-96.5      1.28     0.23            110.34     0.17
-98        1.43     0.23            111.48     0.17
-99.5      1.51      0.3             112.6    -0.08
-101       1.33     0.37            113.73    -0.38
-102.5     1.38     0.36            114.87    -0.67
-104       1.47     0.23            115.32    -0.31
-105.5     1.21     0.18               116      0.2
-107       1.31     0.13            118.81     0.51
-108.5     1.33     0.06            120.61     1.05
-110       0.96     0.04            122.41     1.08
-111.5     0.82     0.06            125.11        1
-113       0.51      0.3            125.57     0.87
-114.5     0.81     0.46            125.87     0.72
-116       1.46     0.65            126.63     0.56
-117.5     1.96     1.01            127.39     0.76
-119       2.47     1.37            128.14     0.33
-120.5     2.86     1.92            129.66    -0.23
-122        3.1     2.13            131.19    -0.38
-123.5     3.36     2.11            132.88    -0.33
-125       2.84     1.95            134.55    -0.48
-126.5     2.18     1.48            136.24    -0.36
-128       1.38      0.7            137.92    -0.38
-129.5     0.06     0.84             139.6    -0.37
-131      -0.38     0.28            141.28    -0.42
-132.5    -0.49     0.14            142.97    -0.19
-134      -0.49     0.14            144.64    -0.32
-135.5    -0.41     0.13            146.33    -0.33
-137       -0.4     0.14            148.01    -0.22
-138.5    -0.17     0.15            149.69    -0.28
-140       0.24     0.18            151.37    -0.31
-141.5     0.56     0.19            153.06    -0.26
-143        0.8     0.13            154.73    -0.76
-144.5     0.87     0.11            156.42     -1.2
-146       0.61     0.15             158.1    -0.78
-147.5     0.41     0.18            159.79    -0.58
-149        0.4      0.2            162.74    -0.73
-150.5     0.33     0.14             165.7    -1.05
-152       0.34     0.16            168.67    -0.71
-153.5      0.3     0.16            171.63     0.09
-155       0.03     0.05            174.59    -0.07
-156.5    -0.28     0.05            177.55    -0.51
-158       0.22     0.01            180.52    -0.37
-159.5     0.47     0.03            183.47    -0.11
-161       0.24     0.04            185.52    -0.15
-162.5     0.26    -0.03            187.56    -0.27
-164      -0.04    -0.01            189.61    -0.19
-165.5    -0.23     0.02            191.23     -0.3
-167      -0.12     0.04            192.84     -0.2
-168.5     0.02     0.01            194.46    -0.13
-170      -0.02        0            196.07    -0.25
-171.5     0.07    -0.01            200.79    -0.12
-173       0.08     0.01            205.53    -0.39
-174.5     0.08     0.01            207.34    -0.13
-176      -0.02    -0.02            209.14     0.21
-177.5    -0.24     0.01            211.01     0.43
-179      -0.26        0            212.87     0.79
-180.5    -0.24    -0.02            214.74     0.52
-182      -0.29     0.01            216.61     0.02
-183.5    -0.26     0.01            218.47     0.32
-185       -0.3     0.01            220.34     0.15
-186.5    -0.22    -0.01             222.2    -0.19
-188      -0.06    -0.01             223.7    -0.11
-189.5      0.1     0.06            225.16     -0.1
-191       1.02     0.15            226.86    -0.23
-192.5     1.67     0.33            228.48    -0.13
-194       2.07     0.38            230.92    -0.29
-195.5      2.2     0.59            231.97    -0.28
-197       2.03     0.75            233.03    -0.56
-198.5     2.01     0.51            236.55    -0.55
-200        2.1     0.27            237.76     0.24
-201.5     1.97     0.23            238.98      0.5
-203        1.7     0.47            240.19     0.64
-204.5     1.68     0.55            241.28     0.47
-206       1.69     0.62            242.37     0.02
-207.5     1.74     0.69            245.79     0.72
-209       1.83     0.75            247.01     0.54
-210.5     1.93     0.78            249.04     0.44
-212       1.94     0.96            255.14     0.14
-213.5        2     1.08            261.22    -0.17
-215       2.09     1.16            273.42    -1.04
-216.5     2.15     1.19            277.13    -0.72
-218        2.1     0.99            277.96    -0.46
-219.5     1.87     0.67            280.32    -0.39
-221       1.04     0.49            283.15    -0.43
-222.5     0.23     0.37               286    -0.21
-224       0.35     0.04            287.73    -0.34
-225.5     0.92    -0.02            290.87    -0.25
-227       0.79    -0.01            293.93     -0.5
-228.5     0.44    -0.02               298    -0.23
-230       0.59    -0.03            298.56    -0.29
-231.5     0.89    -0.02            299.68    -0.19
-233       0.97     0.35            300.24    -0.09
-234.5     1.43     0.66            301.36     -0.1
-236       1.96     1.15            302.47    -0.02
-237.5     2.71     1.53            304.52     0.17
-239       3.04     1.52            308.22     0.57
-240.5     3.01     1.41            315.61     0.69
-242       2.67     1.23               323        1
-243.5      2.2     1.04            326.66     1.67
-245          2     0.63            330.33     1.59
-246.5     1.87     0.35             331.8     1.81
-248        1.7      0.2               334     1.78
-249.5      1.4     0.17            335.53     0.89
-251       1.07     0.12            339.11     0.92
-252.5      0.9     0.08               340    -0.13
-254       1.01     0.05            341.36    -0.81
-255.5     1.26     0.07            344.11    -0.16
-257       1.65     0.03            346.86    -0.51
-258.5      1.7     0.03            348.25    -0.53
-260       1.54     0.02               351    -0.41
-261.5     1.23     0.03             352.4    -0.16
-263       1.08     0.04            352.99    -0.11
-264.5     1.02     0.04            354.16    -0.23
-266       0.98     0.04            355.33    -0.51
-267.5     1.05     0.05            357.43    -0.43
-269       1.16     0.06            358.48    -0.36
-270.5     0.89     0.04             362.7     -0.3
-272       0.35     0.02            363.75    -0.35
-273.5    -0.14     0.03            366.67    -0.41
-275      -0.06    -0.02            368.12    -0.11
-276.5     0.35    -0.01            371.03     0.19
-278       0.67    -0.03            373.13     0.04
-279.5     0.75    -0.01            377.33    -0.09
-281       0.79     0.06            381.52     0.22
-282.5     0.97     0.27            388.26     0.28
-284       1.32     0.48               395     0.68
-285.5     1.74     0.47            397.42     1.29
-287       1.81     0.47            400.83     1.53
-288.5      1.7     0.52            402.25     1.76
-290       1.74     0.24            404.46     2.01
-291.5     1.58     0.05            406.68     1.71
-293       1.05     0.03            407.78     1.54
-294.5     0.63     0.03               410     1.42
-296       0.53    -0.01             410.9     1.11
-297.5     0.61        0            415.52     0.86
-299       0.82    -0.01            420.14     0.96
-300.5     0.73        0            424.75     1.04
-302        0.6     0.07            426.61     0.59
-303.5     0.51     0.19            429.38     0.15
-305       0.62     0.22
-306.5     0.76     0.23
-308       0.85     0.18
-309.5     0.74     0.27
-311       0.67     0.44
-312.5     0.71     0.52
-314       0.82     0.49
-315.5     0.82     0.42
-317       0.75     0.37
-318.5     0.82     0.37
-320       1.11     0.32
-321.5     1.39     0.46
-323       1.66     0.85
-324.5     2.01     1.25
-326       2.42     1.55
-327.5     2.82      1.8
-329       3.05     2.02
-330.5     3.01     2.06
-332       2.76     2.02
-333.5     2.31     1.77
-335       1.77     1.45
-336.5     1.58     1.14
-338       1.66     0.76
-339.5     1.11     0.41
-341       0.09     0.25
-342.5      0.1     0.14
-344       0.11     0.14
-345.5     0.07     0.17
-347       0.04     0.14
-348.5     0.05     0.07
-350      -0.13    -0.01
-351.5     0.49     0.02
-353       0.44     0.01
-354.5     0.15    -0.01
-356       0.21    -0.01
-357.5     0.29    -0.01
-359       0.15     0.01
-360.5      0.3        0
-362       0.37     0.01
-363.5     0.53     0.02
-365       0.77     0.05
-366.5     1.06     0.08
-368       1.49     0.07
-369.5     1.85     0.06
-371        1.8     0.09
-372.5     1.47     0.14
-374       1.01     0.19
-375.5      0.7     0.24
-377       0.59     0.27
-378.5     0.75     0.28
-380       1.16     0.29
-381.5     1.16     0.38
-383       1.17     0.47
-384.5     1.16     0.57
-386       1.16     0.66
-387.5     1.39     0.75
-389       1.73     0.95
-390.5     1.91     0.92
-392       2.24     1.11
-393.5     2.46     1.31
-395       2.76      1.5
-396.5     2.96     1.67
-398       3.16     1.83
-399.5     3.36     1.99
-401       3.56     2.15
-402.5      3.7     2.09
-404       3.84     2.04
-405.5     3.71     2.08
-407       3.56     2.15
-408.5     3.47     2.12
-410       3.35     2.03
-411.5     3.22     1.94
-413       3.06     1.85
-414.5     2.72     1.76
-416       2.32     1.67
-417.5     2.02     1.57
-419       1.88     1.48
-420.5     1.87     1.38
-422       2.07     1.26
-423.5     2.35     1.14
-425       2.62     1.01
-426.5      2.6     0.89
-428        2.3      0.7
-429.5     1.68     0.42
-
-
+#
+#
+#
+#
+#
+#
+#
+# 2. Reconstructed deep water temperature in three basins
+#
+# Column 1: Calendar age for North Atlantic and Pacific ODP980/677
+#           deep water temperature curves, cal. ky BP
+# Column 2: NA87-22/NA87-25/ODP980 site reconstructed bottom water temperature, ï¿½C
+# Column 3: V19-30/ODP677 site reconstructed bottom water temperature, ï¿½C
+# Column 4: Calendar age for South Indian deep water temperature curve, cal. ky BP
+# Column 5: MD94-101 site reconstructed bottom water temperature, ï¿½C
+#
+# Age          T        T               Age        T
+# 0.5        3.5      Nan                 5     1.88
+# 2          3.5     2.06              6.11     1.86
+# 3.5        3.5     2.32              7.78     2.08
+# 5          3.5     2.07              8.91     1.97
+# 6.5        3.5     1.93                10     1.45
+# 8         3.53     1.65             11.65     1.43
+# 9.5       3.43     1.53             12.74     1.67
+# 11        3.21     0.98             13.94     2.01
+# 12.5      2.83     0.67             15.12     2.16
+# 14        2.13     0.73             15.91      1.3
+# 15.5      1.12     0.74             16.72      0.2
+# 17        0.16     0.37             17.81    -0.75
+# 18.5     -0.57    -0.08              18.5    -0.92
+# 20       -0.82     0.09             20.01    -0.76
+# 21.5     -0.71     0.21              21.3    -0.62
+# 23       -0.55     0.08             22.61    -0.79
+# 24.5     -0.55     -0.2              23.9    -0.56
+# 26        -0.5    -0.25             25.21    -0.85
+# 27.5     -0.45     0.09              26.5    -0.66
+# 29       -0.34     0.44             28.23    -0.63
+# 30.5     -0.28     0.38             29.11    -0.53
+# 32        -0.2     0.11                30    -0.57
+# 33.5     -0.25        0             31.59    -0.39
+# 35       -0.31     0.04             33.18     -0.5
+# 36.5     -0.22     0.02             34.77    -0.24
+# 38       -0.48    -0.01             36.38     -0.3
+# 39.5     -0.51    -0.01             37.97    -0.65
+# 41        0.04    -0.01             39.56    -0.78
+# 42.5      0.18    -0.01             41.74    -0.65
+# 44         0.2        0             43.91    -0.73
+# 45.5     -0.04    -0.01             46.09    -0.75
+# 47       -0.43    -0.01             48.26    -0.86
+# 48.5     -0.58    -0.01             50.45    -0.92
+# 50       -0.16    -0.01             52.62    -1.19
+# 51.5      -0.1    -0.01              54.8    -1.32
+# 53       -0.12        0             56.97    -1.05
+# 54.5      -0.3     0.01             59.15    -1.23
+# 56       -0.31        0             61.32    -1.56
+# 57.5     -0.25    -0.01             63.51    -0.97
+# 59       -0.16        0             67.08    -0.77
+# 60.5     -0.56     0.03             70.65    -0.49
+# 62       -0.35        0             73.49    -0.52
+# 63.5      0.24    -0.01             74.78    -0.38
+# 65        0.69     0.02             75.37     -0.2
+# 66.5      0.79     0.02             75.96    -0.25
+# 68         0.6        0             76.55    -0.28
+# 69.5      0.51        0             77.14    -0.32
+# 71        0.61    -0.01             77.73     0.04
+# 72.5      0.78    -0.01             79.31    -0.14
+# 74         0.7     0.05              80.9     -0.2
+# 75.5      1.27     0.09             82.49    -0.01
+# 77        1.88     0.12             84.07     0.25
+# 78.5      2.04     0.27             85.65     0.22
+# 80        1.95      0.4              89.4     0.61
+# 81.5      2.15     0.42             90.92     0.38
+# 83        2.03     0.33             93.46     0.03
+# 84.5      1.91     0.17                96      0.2
+# 86        1.73     0.07             98.55     0.54
+# 87.5      1.66     0.03            101.08     0.49
+# 89        1.45     0.03            103.44     0.59
+# 90.5       1.3     0.03            105.82      0.6
+# 92        1.23     0.07            106.95     0.24
+# 93.5      1.18     0.14            108.08     0.06
+# 95         1.2     0.24            109.21     0.22
+# 96.5      1.28     0.23            110.34     0.17
+# 98        1.43     0.23            111.48     0.17
+# 99.5      1.51      0.3             112.6    -0.08
+# 101       1.33     0.37            113.73    -0.38
+# 102.5     1.38     0.36            114.87    -0.67
+# 104       1.47     0.23            115.32    -0.31
+# 105.5     1.21     0.18               116      0.2
+# 107       1.31     0.13            118.81     0.51
+# 108.5     1.33     0.06            120.61     1.05
+# 110       0.96     0.04            122.41     1.08
+# 111.5     0.82     0.06            125.11        1
+# 113       0.51      0.3            125.57     0.87
+# 114.5     0.81     0.46            125.87     0.72
+# 116       1.46     0.65            126.63     0.56
+# 117.5     1.96     1.01            127.39     0.76
+# 119       2.47     1.37            128.14     0.33
+# 120.5     2.86     1.92            129.66    -0.23
+# 122        3.1     2.13            131.19    -0.38
+# 123.5     3.36     2.11            132.88    -0.33
+# 125       2.84     1.95            134.55    -0.48
+# 126.5     2.18     1.48            136.24    -0.36
+# 128       1.38      0.7            137.92    -0.38
+# 129.5     0.06     0.84             139.6    -0.37
+# 131      -0.38     0.28            141.28    -0.42
+# 132.5    -0.49     0.14            142.97    -0.19
+# 134      -0.49     0.14            144.64    -0.32
+# 135.5    -0.41     0.13            146.33    -0.33
+# 137       -0.4     0.14            148.01    -0.22
+# 138.5    -0.17     0.15            149.69    -0.28
+# 140       0.24     0.18            151.37    -0.31
+# 141.5     0.56     0.19            153.06    -0.26
+# 143        0.8     0.13            154.73    -0.76
+# 144.5     0.87     0.11            156.42     -1.2
+# 146       0.61     0.15             158.1    -0.78
+# 147.5     0.41     0.18            159.79    -0.58
+# 149        0.4      0.2            162.74    -0.73
+# 150.5     0.33     0.14             165.7    -1.05
+# 152       0.34     0.16            168.67    -0.71
+# 153.5      0.3     0.16            171.63     0.09
+# 155       0.03     0.05            174.59    -0.07
+# 156.5    -0.28     0.05            177.55    -0.51
+# 158       0.22     0.01            180.52    -0.37
+# 159.5     0.47     0.03            183.47    -0.11
+# 161       0.24     0.04            185.52    -0.15
+# 162.5     0.26    -0.03            187.56    -0.27
+# 164      -0.04    -0.01            189.61    -0.19
+# 165.5    -0.23     0.02            191.23     -0.3
+# 167      -0.12     0.04            192.84     -0.2
+# 168.5     0.02     0.01            194.46    -0.13
+# 170      -0.02        0            196.07    -0.25
+# 171.5     0.07    -0.01            200.79    -0.12
+# 173       0.08     0.01            205.53    -0.39
+# 174.5     0.08     0.01            207.34    -0.13
+# 176      -0.02    -0.02            209.14     0.21
+# 177.5    -0.24     0.01            211.01     0.43
+# 179      -0.26        0            212.87     0.79
+# 180.5    -0.24    -0.02            214.74     0.52
+# 182      -0.29     0.01            216.61     0.02
+# 183.5    -0.26     0.01            218.47     0.32
+# 185       -0.3     0.01            220.34     0.15
+# 186.5    -0.22    -0.01             222.2    -0.19
+# 188      -0.06    -0.01             223.7    -0.11
+# 189.5      0.1     0.06            225.16     -0.1
+# 191       1.02     0.15            226.86    -0.23
+# 192.5     1.67     0.33            228.48    -0.13
+# 194       2.07     0.38            230.92    -0.29
+# 195.5      2.2     0.59            231.97    -0.28
+# 197       2.03     0.75            233.03    -0.56
+# 198.5     2.01     0.51            236.55    -0.55
+# 200        2.1     0.27            237.76     0.24
+# 201.5     1.97     0.23            238.98      0.5
+# 203        1.7     0.47            240.19     0.64
+# 204.5     1.68     0.55            241.28     0.47
+# 206       1.69     0.62            242.37     0.02
+# 207.5     1.74     0.69            245.79     0.72
+# 209       1.83     0.75            247.01     0.54
+# 210.5     1.93     0.78            249.04     0.44
+# 212       1.94     0.96            255.14     0.14
+# 213.5        2     1.08            261.22    -0.17
+# 215       2.09     1.16            273.42    -1.04
+# 216.5     2.15     1.19            277.13    -0.72
+# 218        2.1     0.99            277.96    -0.46
+# 219.5     1.87     0.67            280.32    -0.39
+# 221       1.04     0.49            283.15    -0.43
+# 222.5     0.23     0.37               286    -0.21
+# 224       0.35     0.04            287.73    -0.34
+# 225.5     0.92    -0.02            290.87    -0.25
+# 227       0.79    -0.01            293.93     -0.5
+# 228.5     0.44    -0.02               298    -0.23
+# 230       0.59    -0.03            298.56    -0.29
+# 231.5     0.89    -0.02            299.68    -0.19
+# 233       0.97     0.35            300.24    -0.09
+# 234.5     1.43     0.66            301.36     -0.1
+# 236       1.96     1.15            302.47    -0.02
+# 237.5     2.71     1.53            304.52     0.17
+# 239       3.04     1.52            308.22     0.57
+# 240.5     3.01     1.41            315.61     0.69
+# 242       2.67     1.23               323        1
+# 243.5      2.2     1.04            326.66     1.67
+# 245          2     0.63            330.33     1.59
+# 246.5     1.87     0.35             331.8     1.81
+# 248        1.7      0.2               334     1.78
+# 249.5      1.4     0.17            335.53     0.89
+# 251       1.07     0.12            339.11     0.92
+# 252.5      0.9     0.08               340    -0.13
+# 254       1.01     0.05            341.36    -0.81
+# 255.5     1.26     0.07            344.11    -0.16
+# 257       1.65     0.03            346.86    -0.51
+# 258.5      1.7     0.03            348.25    -0.53
+# 260       1.54     0.02               351    -0.41
+# 261.5     1.23     0.03             352.4    -0.16
+# 263       1.08     0.04            352.99    -0.11
+# 264.5     1.02     0.04            354.16    -0.23
+# 266       0.98     0.04            355.33    -0.51
+# 267.5     1.05     0.05            357.43    -0.43
+# 269       1.16     0.06            358.48    -0.36
+# 270.5     0.89     0.04             362.7     -0.3
+# 272       0.35     0.02            363.75    -0.35
+# 273.5    -0.14     0.03            366.67    -0.41
+# 275      -0.06    -0.02            368.12    -0.11
+# 276.5     0.35    -0.01            371.03     0.19
+# 278       0.67    -0.03            373.13     0.04
+# 279.5     0.75    -0.01            377.33    -0.09
+# 281       0.79     0.06            381.52     0.22
+# 282.5     0.97     0.27            388.26     0.28
+# 284       1.32     0.48               395     0.68
+# 285.5     1.74     0.47            397.42     1.29
+# 287       1.81     0.47            400.83     1.53
+# 288.5      1.7     0.52            402.25     1.76
+# 290       1.74     0.24            404.46     2.01
+# 291.5     1.58     0.05            406.68     1.71
+# 293       1.05     0.03            407.78     1.54
+# 294.5     0.63     0.03               410     1.42
+# 296       0.53    -0.01             410.9     1.11
+# 297.5     0.61        0            415.52     0.86
+# 299       0.82    -0.01            420.14     0.96
+# 300.5     0.73        0            424.75     1.04
+# 302        0.6     0.07            426.61     0.59
+# 303.5     0.51     0.19            429.38     0.15
+# 305       0.62     0.22
+# 306.5     0.76     0.23
+# 308       0.85     0.18
+# 309.5     0.74     0.27
+# 311       0.67     0.44
+# 312.5     0.71     0.52
+# 314       0.82     0.49
+# 315.5     0.82     0.42
+# 317       0.75     0.37
+# 318.5     0.82     0.37
+# 320       1.11     0.32
+# 321.5     1.39     0.46
+# 323       1.66     0.85
+# 324.5     2.01     1.25
+# 326       2.42     1.55
+# 327.5     2.82      1.8
+# 329       3.05     2.02
+# 330.5     3.01     2.06
+# 332       2.76     2.02
+# 333.5     2.31     1.77
+# 335       1.77     1.45
+# 336.5     1.58     1.14
+# 338       1.66     0.76
+# 339.5     1.11     0.41
+# 341       0.09     0.25
+# 342.5      0.1     0.14
+# 344       0.11     0.14
+# 345.5     0.07     0.17
+# 347       0.04     0.14
+# 348.5     0.05     0.07
+# 350      -0.13    -0.01
+# 351.5     0.49     0.02
+# 353       0.44     0.01
+# 354.5     0.15    -0.01
+# 356       0.21    -0.01
+# 357.5     0.29    -0.01
+# 359       0.15     0.01
+# 360.5      0.3        0
+# 362       0.37     0.01
+# 363.5     0.53     0.02
+# 365       0.77     0.05
+# 366.5     1.06     0.08
+# 368       1.49     0.07
+# 369.5     1.85     0.06
+# 371        1.8     0.09
+# 372.5     1.47     0.14
+# 374       1.01     0.19
+# 375.5      0.7     0.24
+# 377       0.59     0.27
+# 378.5     0.75     0.28
+# 380       1.16     0.29
+# 381.5     1.16     0.38
+# 383       1.17     0.47
+# 384.5     1.16     0.57
+# 386       1.16     0.66
+# 387.5     1.39     0.75
+# 389       1.73     0.95
+# 390.5     1.91     0.92
+# 392       2.24     1.11
+# 393.5     2.46     1.31
+# 395       2.76      1.5
+# 396.5     2.96     1.67
+# 398       3.16     1.83
+# 399.5     3.36     1.99
+# 401       3.56     2.15
+# 402.5      3.7     2.09
+# 404       3.84     2.04
+# 405.5     3.71     2.08
+# 407       3.56     2.15
+# 408.5     3.47     2.12
+# 410       3.35     2.03
+# 411.5     3.22     1.94
+# 413       3.06     1.85
+# 414.5     2.72     1.76
+# 416       2.32     1.67
+# 417.5     2.02     1.57
+# 419       1.88     1.48
+# 420.5     1.87     1.38
+# 422       2.07     1.26
+# 423.5     2.35     1.14
+# 425       2.62     1.01
+# 426.5      2.6     0.89
+# 428        2.3      0.7
+# 429.5     1.68     0.42
