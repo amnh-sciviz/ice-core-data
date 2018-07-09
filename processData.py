@@ -37,7 +37,7 @@ OUTPUT_FILES = [OUTPUT_FILE, "all-data.json"]
 
 # plot the data
 if SHOW_GRAPH:
-    showGraph(DATA, PRESENT, START_YEARS_BP, cropData=True)
+    showGraph(DATA, PRESENT, START_YEARS_BP, cropData=False)
 
 # otherwise, output the data
 else:

@@ -1,6 +1,7 @@
 {
   "dataFiles": [
     {"file": "population/data/WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.tsv", "label": "United Nations", "yearKey": "Year", "valueKey": "Value", "valueMult": 1000, "color": "tab:blue"},
+    {"file": "population/data/pop_summary_tcm61-44258.tsv", "label": "Paleo NEA", "yearKey": "year", "valueKey": "value", "valueMult": 1000, "color": "tab:green"},
     {"file": "population/data/paleo_population_table.tsv", "label": "Paleo", "yearKey": "Years", "valueKey": "Population", "bp": 2011, "color": "tab:orange"}
   ],
   "outputFilename": "population/data/population.json",
